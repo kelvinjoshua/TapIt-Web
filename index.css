@@ -1,0 +1,43 @@
+.navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background: #1E88E5;
+    border-right: 2px solid #1E99E5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    padding-top:100px;
+}
+
+.navbar__link {
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 12px;
+    margin-bottom: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.85rem;
+    border-bottom: 1px solid #1E88E5;
+}
+
+.navbar__link img {
+    margin-right: 12px;
+}
+
+.navbar__link:active {
+    background-color: #01579b;
+}
+
+#form {
+    margin-left: 540px;
+    margin-top: 100px;
+}
+
+.header {
+    text-align: center;
+    margin-top: 20px;
+}
+#email, #password {
+    width: 280px;
+}
